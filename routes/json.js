@@ -38,7 +38,7 @@ app.get("/:id", (req, res) => {
       nationality: currentAuthor.nationality,
     })
   } else {
-    res.json("no ID found")
+    res.status(404).json("no ID found")
   }
 })
 
@@ -51,7 +51,7 @@ app.get("/:id/books", (req, res) => {
       books: currentAuthor.books,
     })
   } else {
-    res.json("no ID found")
+    res.status(404).json("no ID found")
   }
 })
 
