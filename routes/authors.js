@@ -43,7 +43,7 @@ app.get("/:id/books", (req, res) => {
     return author.id === Number(req.params.id)
   })
   if (currentAuthor) {
-    res.json(`${currentAuthor.books}`)
+    res.json(currentAuthor.books.join(", "))
   } else {
     res.status(404).json("no ID found")
   }
