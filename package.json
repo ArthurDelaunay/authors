@@ -1,0 +1,22 @@
+{
+  "name": "authors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurDelaunay/authors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurDelaunay/authors/issues"
+  },
+  "homepage": "https://github.com/ArthurDelaunay/authors#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
